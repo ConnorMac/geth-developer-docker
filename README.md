@@ -1,4 +1,4 @@
-# ethereum-privatechain-node
+# Docker geth developer node
 Quick docker setup for a privatechain node that auto mines
 
 Uses: https://github.com/amacneil/gethdev (Will be rolling my own for customization)
