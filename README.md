@@ -10,5 +10,5 @@ Uses: https://github.com/amacneil/gethdev with a fix since for the initial run w
 The easiest is to just unlock the coinbase account indefinetly. To unlock:
 
 1. `docker exec -it geth /bin/sh`
-2. `geth attach "/tmp/ethereum_dev_mode/geth.ipc"`
+2. `geth attach "/tmp/geth.ipc"`
 3. `web3.personal.unlockAccount(eth.coinbase, '', 0)`
